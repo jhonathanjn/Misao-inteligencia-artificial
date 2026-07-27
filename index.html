@@ -1,1 +1,34 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão Inteligencia Artificial</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main class="caixa-principal">
+        <h1>Missão: Inteligencia Artificial</h1>
+        <p class="Introducao">
+            Responda às perguntas, a dificuldade aumenta durante a atividade.
+        </p>
+
+        <section id="quiz">
+            <p id="progresso">Carregando Perguntas...</p>
+            <p id="nivel"></p>
+            <h2 id="pergunta"></h2>
+            <div id="alternativas"></div>
+            <p id="mensssage"></p>
+        </section>
+
+        <section id="resultado" class="oculto">
+            <h2>Resultado</h2>
+            <p id="texto-resultado"></p>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
